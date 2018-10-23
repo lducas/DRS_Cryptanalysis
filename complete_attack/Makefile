@@ -1,5 +1,5 @@
-PREFLAG = -fPIC -Ofast -mavx2 -funroll-loops -std=c++11
-PREFLAGSO = -shared -Ofast -mavx2 -funroll-loops -std=c++11
+PREFLAG = -fPIC -Ofast -march=native -funroll-loops -std=c++11
+PREFLAGSO = -shared -Ofast -march=native -funroll-loops -std=c++11
 OBJ = signlib.o
 
 all: signlib
